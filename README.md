@@ -1,12 +1,71 @@
-# React + Vite
+# Code Connect
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido durante o curso[React: construindo SPAs com React Router, da Alura.
 
-Currently, two official plugins are available:
+A aplicação simula uma plataforma de conteúdo para desenvolvedores, com autenticação, feed de posts, visualização de publicações e comentários.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Durante o desenvolvimento, foram trabalhados conceitos de React e React Router para criação de uma Single Page Application (SPA).
 
-## Expanding the ESLint configuration
+## Tecnologias
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- React Router
+- JavaScript
+- Vite
+- CSS Modules
+- ESLint
+
+## Funcionalidades
+
+- Login e cadastro de usuários
+- Autenticação utilizando `localStorage`
+- Proteção de rotas
+- Feed de publicações
+- Visualização individual dos posts
+- Comentários
+- Navegação entre páginas sem recarregar a aplicação
+- Página personalizada para rotas não encontradas (404)
+
+## Como executar
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/diegoandradelr/code-connect.git
+```
+
+Entre na pasta do projeto:
+
+```bash
+cd code-connect
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Inicie o projeto:
+
+```bash
+npm run dev
+```
+
+## Deploy
+
+O projeto está publicado na Vercel:
+
+https://code-connect-dun-gamma.vercel.app/
+
+## Curso
+
+Projeto desenvolvido como parte dos estudos de React no curso:
+
+[React: construindo SPAs com React Router - Alura](https://cursos.alura.com.br/course/react-construindo-spas-react-router)
+
+## Autor
+
+Diego Andrade
+
+GitHub: https://github.com/diegoandradelr
